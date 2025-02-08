@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+
+# Logs and debugging
+logs/
+*.log
+debug.log
+
+# Data files (ignore raw data but allow processed data)
+data/raw/*
+!data/raw/sample_data.csv  # Allow a sample dataset for reference
+data/external/*
+data/processed/*
+
+# Model files
+models/*.pkl
+models/*.h5
+models/model_evaluation.csv
+
+# Config and environment files
+config/config.yaml
+
+# Reports (optional, uncomment if needed)
+# reports/*.pdf
+# reports/*.docx
+
+# VS Code settings (optional)
+.vscode/
+
+# MacOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook hidden folders
+.ipynb_checkpoints/

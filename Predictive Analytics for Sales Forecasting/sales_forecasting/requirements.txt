@@ -1,0 +1,16 @@
+# Core Libraries
+pandas
+numpy
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning & Forecasting
+scikit-learn
+statsmodels
+prophet
+xgboost
+
+# Jupyter Notebook
+jupyter
